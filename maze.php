@@ -1,11 +1,11 @@
-d><style> 
+<style> 
  .wall { background-color: black; color: gray; }
  .road { background-color: white; color: white; }
  pre { padding:12px; font-size:10px; line-height:10px; }
 </style></head><body><pre>
 <?php
 // 迷路を作成して結果を出力する
-$maze = generateMaze(55, 55);
+$maze = generateMaze(21, 21);
 echo drawMaze($maze);
 
 // 迷路を作成する関数
